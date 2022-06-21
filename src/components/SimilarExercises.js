@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const SimilarExercises = () => {
-  return (
-    <div>SimilarExercises</div>
-  )
-}
+const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => {
+  return <div>SimilarExercises</div>;
+};
 
-export default SimilarExercises
+export default SimilarExercises;
